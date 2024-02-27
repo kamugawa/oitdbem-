@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="senha.css">
+    <title>Validador de Senha</title>
+</head>
+<body>
+    <h1>Validador de Senha</h1>
+    <form onsubmit="validatePassword(); return false;">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Verificar Senha</button>
+        
+
+        <script src="senha.js"></script>
+        
+    </form>
+    <p id="validationResult"></p>

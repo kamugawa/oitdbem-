@@ -1,0 +1,12 @@
+button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgb(221, 255, 206);
+
+}
+
+
+body {font: 14pt Arial;}
+h1, h2, h3 {font-family:'Pacifico', cursive; font-weight: Arial ;}
